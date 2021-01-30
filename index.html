@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>طبیعت مرگور</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="header">
+            <ul class="menu-list">
+                <li class="menu-list__item"><a class="menu-list__link" href="">صفحه اصلی</a></li>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="pages/myacc.html">درباره ما</a>
+                </li>
+
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#itinerary">مکان سفر</a>
+                </li>
+                <li class="menu-list__item">
+                    <a class="menu-list__link" href="#inputpicid">ثبت عکس</a>
+                </li>
+            </ul>
+            <a href="#buzpic">
+                <img
+                    src="images/logopic.png"
+                    alt="logo"
+                    class="logo"
+                    title="بوز سینا سمبولا مرگورا رنگین"
+                />
+            </a>
+            <div class="header_text">
+                <h1>تور بزرگ مرگور گردی</h1>
+                <h2><span class="cta">بوز سینا سمبولا مرگور</span></h2>
+            </div>
+            <div class="arrow-down">
+                <a class="arrow-link" href="#about">&xdtri;</a>
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <div class="row">
+                <img
+                    src="images/mypic.png"
+                    width="162"
+                    height="152"
+                    alt="barnamenevis"
+                    class="about-img"
+                />
+
+                <h3>سلام من هژار هستم طراح سایت</h3>
+                <p>
+                    یه من ازمایشی فلان بهمان است و نمیدونم چزانم هست و <br />اخر به باد میره و
+                    خواستن توانستن است
+                </p>
+                <br />
+                <h2>اطلاعات تماس</h2>
+                <ul>
+                    <li>آدرس: آ.غ-ارومیه-بخش سیلوانا-محاله مرگور-شهرک زیوه</li>
+                    <li>تفن همراه:****0914790</li>
+                    <li>تلفن تماس:****443252</li>
+                    <li>پست الکترونیکی:hazh****@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div id="itinerary" class="itinerary">
+            <div class="row">
+                <img
+                    src="images/buzpic.jfif"
+                    width="275"
+                    height="173"
+                    alt="بوز سینا"
+                    id="buzpic"
+                    class="itinerary-img1"
+                />
+                <h3 id="buzid">روز اول_بوز سینا</h3>
+                یه من ازمایشی فلان بهمان است و نمیدونم چزانم هست و <br />اخر به باد میره و خواستن
+                توانستن است
+            </div>
+            <div class="row">
+                <img
+                    src="images/dallpic.jfif"
+                    width="246"
+                    height="205"
+                    alt=""
+                    class="itinerary-img2"
+                />
+                <h3>روز دوم_کوه دالامپر</h3>
+                یه من ازمایشی فلان بهمان است و نمیدونم چزانم هست و <br />اخر به باد میره و خواستن
+                توانستن است
+            </div>
+        </div>
+        <div class="inputpicid">
+            <h4 class="inputpicid-header" id="inputpicid">برای ثبت عکس فرم زیر را کامل کنید</h4>
+            <div class="row">
+                <!-- Start form -->
+                <form class="inputpicid-form" action="#" method="GET">
+                    <div class="form-group">
+                        <label for="name">نام:&nbsp<span class="required">*</span></label><br />
+                        <input class="form-control"
+                            id="name"
+                            type="text"
+                            name="name"
+                            placeholder="لطفا نام خود را وارد کنید"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="family">نام خانوادگی:&nbsp<span class="required">*</span></label><br />
+                        <input class="form-control"
+                            id="family"
+                            type="text"
+                            name="family"
+                            placeholder="لطفا نام خانوادگی خود را وارد کنید"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="number">شماره تلفن:&nbsp<span class="required">*</span></label><br />
+                        <input class="form-control"
+                            id="number"
+                            type="number"
+                            name="number"
+                            placeholder="لطفا شماره تلفن خود را وارد کنید"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">ایمیل:</label><br />
+                        <input class="form-control"
+                            id="email"
+                            type="email"
+                            name="email"
+                            placeholder="لطفا ایمیل خود را وارد کنید"
+                            required
+                        />
+                    </div>
+                    <div class="form-checkbox">
+                        <input class="input-checkbux" id="chex" type="checkbox" />
+                        <label class="checkbox-label" for="chex">ایا شما اهل منطقه هستین؟</label>
+                    </div><
+                    <div class="form-group">
+                        <label class="spases" for="selid">عکس برای کدام فصل سال است؟</label><br />
+                        <select class="form-control" id="selid">
+                            <option value="bahar">بهار</option>
+                            <option value="tabestan">تابستان</option>
+                            <option value="paiez">پاییز</option>
+                            <option value="zamestan">زمستان</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>جنسیت</label><br />
+                        <label for="man">مرد</label>
+                        <input id="man" type="radio" name="jens" value="man" />
+                        <label for="woman">زن</label>
+                        <input id="woman" type="radio" name="jens" value="woman" />
+                    </div>
+                    <div class="form-group">
+                        <label for="tozih">توضیحات خود را وارد کنید</label><br />
+                        <textarea class="form-control-tozih" id="tozih" name="tozih" placeholder="لطفا توضیحات متن را وارد کنید"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="avater">لطفا عکس مورد نطر را وارد کنید:</label><br />
+                        <input type="file" class="button-inputpic" id="avater" name="avater" accept="image/png,image/jpeg">
+                    </div>
+                    <div /*id="btns"*/ class="btns">
+                        <input class="button" id="btn_reset" type="reset" name="reset" />
+                        <input class="button" id="btn_submit" type="submit" name="submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li><a href="https://www.instagram.com/_hazhar_79_/">instagram</a></li>
+                <li><a href="https://www.youtube.com/">youtube</a></li>
+            </ul>
+            <br />
+
+            &copy; 2021 <a href="https://www.w3school.com">w3chool</a>
+        </div>
+    </body>
+</html>
